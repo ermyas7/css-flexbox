@@ -33,11 +33,23 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display: flex;
   border: 10px solid mistyrose;
   min-height: 100vh;
-  align-content: center;
-  flex-wrap: wrap;
-  justify-content: center;
+  align-items: center;
 }
 
 .box{
-  width: 33.333333333%;
+  width: 33.33333%;
+}
+
+.box3{
+  padding-bottom: 50px;
+
+}
+
+.box5{
+  padding-bottom: 100px;
+  align-self: flex-start;
+}
+
+.box8{
+  padding-bottom: 100px;
 }
